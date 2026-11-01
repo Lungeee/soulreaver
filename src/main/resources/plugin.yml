@@ -1,0 +1,14 @@
+name: Soulreaver
+main: dev.soulreaver.SoulreaverPlugin
+version: 1.0.0
+api-version: '1.21.11'
+description: A legendary soul-drinking greatsword and the Void Reaver boss who wields it.
+commands:
+  soulreaver:
+    description: Give yourself the Soulreaver or summon the Void Reaver boss.
+    usage: /soulreaver <give [player] | boss>
+    permission: soulreaver.admin
+permissions:
+  soulreaver.admin:
+    description: Allows giving the sword and summoning the boss.
+    default: op
